@@ -7706,6 +7706,20 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 body {
   background-color: white; }
 
+#btn-sub {
+  background-color: #917C57 !important;
+  height: 2rem;
+  width: 4rem;
+  color: whitesmoke;
+  background-color: transparent;
+  border: 0px solid; }
+
+#btn-sub:hover {
+  background-color: #FFB730 !important; }
+
+#btn-sub:active, .btn-unique:focus {
+  background-color: #00E676 !important; }
+
 .hero {
   padding: 5rem 20px;
   background-image: url("../../images/hero.jpg");
@@ -7773,3 +7787,6 @@ h3 {
 
 .navbar-burger {
   color: black; }
+
+.btn-unique {
+  background-color: #00ff77; }
