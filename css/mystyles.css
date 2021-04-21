@@ -1,5 +1,7 @@
 /*! bulma.io v0.9.1 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@400;500;600&family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
 @keyframes spinAround {
   from {
@@ -7703,77 +7705,51 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
+html {
+  scroll-behavior: smooth;
+  padding-top: 52px; }
+
+a {
+  color: #FF6700; }
+
+@font-face {
+  font-family: "Hatolie";
+  src: url("/fonts/Hatolie.ttf") format("truetype"); }
+
 body {
-  background-color: white; }
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
-#btn-sub {
-  background-color: #917C57 !important;
-  height: 2rem;
-  width: 4rem;
-  color: whitesmoke;
-  background-color: transparent;
-  border: 0px solid; }
+.title {
+  font-family: "Prata", serif;
+  font-size: 2rem;
+  margin-bottom: 1rem !important; }
+  @media only screen and (min-width: 768px) {
+    .title {
+      font-size: 2.2rem; } }
+  .title--white {
+    color: #ffffff; }
 
-#btn-sub:hover {
-  background-color: #FFB730 !important; }
+.subtitle {
+  color: gray;
+  font-size: 1.125rem;
+  line-height: 1.5rem; }
+  .subtitle--white {
+    color: #ffffff;
+    opacity: 0.8; }
 
-#btn-sub:active, .btn-unique:focus {
-  background-color: #00E676 !important; }
+.global-padding {
+  padding: 5rem 1.5rem 5rem 1.5rem; }
 
 .hero {
-  padding: 5rem 20px;
-  background-image: url("../../images/hero.jpg");
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; }
-
-.abouts {
-  margin-bottom: 5rem;
-  outline-style: solid;
-  outline-color: black;
-  background-color: #917C57; }
-  .abouts__title {
-    color: whitesmoke; }
-  .abouts__sub {
-    color: whitesmoke;
-    font-size: medium; }
-
-.packages {
-  margin-bottom: 5rem; }
-  .packages__title {
-    color: black;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    text-align: center; }
-  .packages__title:before, .packages__title:after {
-    color: #917C57;
-    content: '';
-    border-top: 2px solid;
-    margin: 0 20px 0 0;
-    flex: 1 0 20px; }
-  .packages__title:after {
-    margin: 0 0 0 20px; }
-  .packages__columns {
-    outline-style: solid; }
-
-h3 {
-  color: #5f4400;
-  font-size: large;
-  font-weight: bold; }
-
-.subtitle__pol {
-  font-size: medium;
-  font-weight: bold;
-  text-decoration: underline; }
-
-.main-title {
-  font-weight: bolder;
-  color: black; }
-
-.fa {
-  color: #917C57; }
+  background-repeat: no-repeat;
+  background-position: center; }
 
 .navbar {
   background-color: whitesmoke; }

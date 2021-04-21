@@ -1,8 +1,11 @@
-@charset "utf-8";
 @import "../node_modules/bulma/bulma.sass";
-@import "partials/settings";
-@import "partials/about";
-@import "partials/nav";
+@import "./partials/base";
+@import "./partials/mixins";
+@import "./partials/typography";
+@import "./partials/settings";
+@import "./partials/layout";
+@import "./partials/pricing";
+@import "./partials/home";
 
 
 

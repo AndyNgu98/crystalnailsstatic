@@ -1,0 +1,34 @@
+
+.hero {
+  @include transition;
+  @include background-center;
+
+  //   padding: 5rem 20px;
+  //   background-image: url('../../images/hero.jpg');
+  //   background-size: cover;
+  //   background-position: center;
+  //   background-repeat: no-repeat;
+
+  // &__image {
+    
+  //   width: 500px;
+  //   display: block;
+  //   margin: auto;
+  //   padding: 3.5rem 0;
+  //   @include breakpoint(tablet) {
+  //   }
+  // }
+
+  // &__home {
+  //   background-image: url('/images/home-hero.jpg');
+  // }
+  
+  // &__pricing {
+  //   background-image: url('/images/pricing-hero.jpg');
+  //   height: 30vh;
+
+  //   @include breakpoint(desktop) {
+  //     height: 45vh;
+  //   }
+  // }
+}
