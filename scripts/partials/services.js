@@ -51,13 +51,17 @@ const pricing = [
             { name: 'Acrylic', price: '£28 (30-40 mins)' },
             { name: 'Infill Acrylic	', price: '£19 (30-40 mins)' },
             { name: 'Fullset Permanent White Tips/Acrylic Overlay', price: '£28 (28 mins)' },
+            { name: 'Takeoff/Redo Acrylic', price: '£33' },
             { name: 'Gel Powder', price: '£30 (30-40 mins)' },
             { name: 'Gel Powder Infill', price: '£20 (30 mins)' },
             { name: 'Gel Polish Fullset', price: '£35 (30-40 mins)' },
             { name: 'Gel Polish Infill', price: '£28 (30 mins)' },
+            { name: 'Gel Polish Takeoff', price: '£33 (30 mins)' },
             { name: 'Soak off only', price: '£13 (20 mins)' },
             { name: 'Single Nails', price: 'From £5' },
-            { name: 'Extra 3+ Colour', price: '£5 (20 mins)' }
+            { name: 'Extra 3+ Colour', price: '£5 (20 mins)' },
+            { name: 'Take off or Remove Fullset', price: '£38' }
+
 
         ]
     },
@@ -80,9 +84,11 @@ const pricing = [
     {
         key: 'table__tips',
         services: [
+            { name: 'Pink and white tips (powder) Fullset', price: '£40' },
             { name: 'Fullset / Overlay', price: '£35 (50-60 mins)' },
             { name: 'Chrome / Flames', price: '£28 (50-60 mins)' },
-            { name: 'Pink Infills', price: '£26 (30 mins)' }
+            { name: 'Pink Infills', price: '£26 (30 mins)' },
+            { name: 'Infills', price: '£33 (30 mins)' }
         ]
     }
 ]
