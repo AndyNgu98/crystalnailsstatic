@@ -77,7 +77,6 @@ const pricing = [
             { name: 'Specific Nail Design', price: 'PLEASE ASK FOR QUOTE / DM us a photo prior appointment' },
             { name: 'Marble', price: '£3-£5' },
             { name: 'Ink Design', price: '£5' },
-            { name: 'Extra Long Nails', price: 'Additional £5' },
             { name: 'XXL Tips', price: '£20' },
             { name: 'XL Tips', price: '£15' },
             { name: 'Long Tips', price: '£5 - £10' },
