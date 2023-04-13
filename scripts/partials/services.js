@@ -2,12 +2,12 @@ const pricing = [
     {
         key: 'table__natural-nails',
         services: [
-            { name: 'Manicure', price: '£15 (20 mins)' },
-            { name: 'Shaped & Revarnished Normal Polish', price: '£9 (10 mins)' },
-            { name: 'manicure & Gel Polish', price: '£25 (15-20 mins)' },
+            { name: 'Manicure', price: '£18 (20 mins)' },
+            { name: 'Shaped & Revarnished Normal Polish', price: '£13 (10 mins)' },
+            { name: 'manicure & Gel Polish', price: '£28 (15-20 mins)' },
             { name: 'Additional Gel Colour Removal', price: '£5' },
-            { name: 'Gel Removal, Shap (+ Clear)', price: '£10' },
-            { name: 'Gel Removal and Manicure', price: '£20' },
+            { name: 'Gel Removal, Shap (+ Clear)', price: '£13' },
+            { name: 'Gel Removal and Manicure', price: '£23' },
             { name: 'Extra American or White tip', price: '£4' }
 
         ]
@@ -15,14 +15,14 @@ const pricing = [
     {
         key: 'table__spa-pedicure',
         services: [
-            { name: 'Spa Pedicure with normal polish', price: '£26 (40 mins)' },
-            { name: 'Spa Pedicure with gel Polish', price: '£35 (40 mins)' },
-            { name: 'Gel Polish On toes ONLY', price: '£25 (15-20 mins)' },
+            { name: 'Spa Pedicure with normal polish', price: '£28 (40 mins)' },
+            { name: 'Spa Pedicure with gel Polish', price: '£38 (40 mins)' },
+            { name: 'Gel Polish On toes ONLY', price: '£26 (15-20 mins)' },
             { name: 'Gel polish removal', price: '£10' },
-            { name: 'Manicure & Pedicure (clear or colour)	', price: '£36 (50-60 mins)' },
-            { name: 'Manicure & Pedicure with Shellac on both', price: '£60 (60 mins)' },
-            { name: 'Manicure Gel Polish & Spa Pedicure', price: '£51 (60 mins)' },
-            { name: 'Manicure & Spa Pedicure Gel Polish', price: '£51 (60 mins)' }
+            { name: 'Manicure & Pedicure (clear or colour)	', price: '£43 (50-60 mins)' },
+            { name: 'Manicure & Pedicure with Shellac on both', price: '£66 (60 mins)' },
+            { name: 'Manicure Gel Polish & Spa Pedicure', price: '£56 (60 mins)' },
+            { name: 'Manicure & Spa Pedicure Gel Polish', price: '£56 (60 mins)' }
 
         ]
     },
@@ -30,17 +30,20 @@ const pricing = [
         key: 'table__sns',
         services: [
             { name: 'Fullset SNS', price: '£35' },
+            { name: 'Fullset extension', price: '£38' },
             { name: 'Take Off Fullset SNS', price: '£35' },
-            { name: 'Natural Nails', price: '£30' },
+            { name: 'Takeoff and new set', price: '£40' },
+            { name: 'Takeoff and redone natural', price: '£36' },
+            { name: 'Natural Nails', price: '£33' },
             { name: 'Add Ombre design', price: 'From £10' }
         ]
     },
     {
         key: 'table__ombre',
         services: [
-            { name: 'FullSet Ombre/Glitter Ombre', price: '£40' },
-            { name: 'Infill Ombre / Glitter', price: '£33' },
-            { name: 'Infill 1 Colour', price: '£33' },
+            { name: 'FullSet Ombre/Glitter Ombre', price: '£43' },
+            { name: 'Infill Ombre / Glitter', price: '£35' },
+            { name: 'Infill 1 Colour', price: '£35' },
             { name: 'Fullset 3+ Colours', price: '£45' },
             { name: 'Infill 3+ Colours', price: '£38' }
         ]
@@ -49,15 +52,17 @@ const pricing = [
         key: 'table__fullset',
         services: [
             { name: 'Acrylic', price: '£28 (30-40 mins)' },
-            { name: 'Infill Acrylic	', price: '£19 (30-40 mins)' },
-            { name: 'Fullset Permanent White Tips/Acrylic Overlay', price: '£28 (28 mins)' },
-            { name: 'Takeoff/Redo Acrylic', price: '£33' },
-            { name: 'Gel Powder', price: '£30 (30-40 mins)' },
-            { name: 'Gel Powder Infill', price: '£20 (30 mins)' },
-            { name: 'Gel Polish Fullset', price: '£35 (30-40 mins)' },
-            { name: 'Gel Polish Infill', price: '£28 (30 mins)' },
+            { name: 'Infill Acrylic	', price: '£33 (30-40 mins)' },
+            { name: 'Fullset Permanent White Tips/Acrylic Overlay', price: '£33 (28 mins)' },
+            { name: 'Fullset Acrylic', price: '£24 (30-40 mins)' },
+            { name: 'Takeoff/Redo Acrylic', price: '£35' },
+            { name: 'Takeoff and redone', price: '£40' },
+            { name: 'Gel Powder', price: '£33 (30-40 mins)' },
+            { name: 'Gel Powder Infill', price: '£24 (30 mins)' },
+            { name: 'Gel Polish Fullset', price: '£38 (30-40 mins)' },
+            { name: 'Gel Polish Infill', price: '£30 (30 mins)' },
             { name: 'Gel Polish Takeoff', price: '£33 (30 mins)' },
-            { name: 'Soak off only', price: '£13 (20 mins)' },
+            { name: 'Soak off only', price: '£15 (20 mins)' },
             { name: 'Single Nails', price: 'From £5' },
             { name: 'Extra 3+ Colour', price: '£5 (20 mins)' },
             { name: 'Take off or Remove Fullset', price: '£38' }
@@ -86,11 +91,21 @@ const pricing = [
     {
         key: 'table__tips',
         services: [
-            { name: 'Pink and white tips (powder) Fullset', price: '£40' },
-            { name: 'Fullset / Overlay', price: '£35 (50-60 mins)' },
-            { name: 'Chrome / Flames', price: '£28 (50-60 mins)' },
-            { name: 'Pink Infills', price: '£26 (30 mins)' },
-            { name: 'Infills', price: '£33 (30 mins)' }
+            { name: 'Pink and white tips (powder) Fullset', price: '£43' },
+            { name: 'Fullset / Overlay', price: '£40 (50-60 mins)' },
+            { name: 'Chrome / Flames', price: '£35 (50-60 mins)' },
+            { name: 'Pink Infills', price: '£30 (30 mins)' },
+            { name: 'Infills', price: '£35 (30 mins)' }
+        ]
+    },
+    {
+        key: 'table__gel',
+        services: [
+            { name: 'On natural gel', price: '£33' },
+            { name: 'Extension fullset', price: '£36' },
+            { name: 'Infill (clear or same colour)', price: '£30' },
+            { name: 'Takeoff and redone natural nails', price: '£36' },
+            { name: 'Takeoff and redone fullset', price: '£40' }
         ]
     }
 ]
