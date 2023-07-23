@@ -19,10 +19,10 @@ const pricing = [
             { name: 'Spa Pedicure with gel Polish', price: '£38' },
             { name: 'Gel Polish On toes ONLY', price: '£26' },
             { name: 'Gel polish removal', price: '£10' },
-            { name: 'Manicure & Pedicure (clear or colour)	', price: '£43' },
-            { name: 'Manicure & Pedicure with Shellac on both', price: '£66' },
-            { name: 'Manicure Gel Polish & Spa Pedicure', price: '£56' },
-            { name: 'Manicure & Spa Pedicure Gel Polish', price: '£56' }
+            { name: 'Manicure & Pedicure (clear or colour normal)	', price: '£43' },
+            { name: 'Manicure & Pedicure with Gel Polish on Both', price: '£66' },
+            { name: 'Manicure Gel Polish & Spa Pedicure Normal Polish', price: '£56' },
+            { name: 'Manicure Normal Polish & Spa Pedicure Gel Polish', price: '£56' }
 
         ]
     },
@@ -51,13 +51,13 @@ const pricing = [
     {
         key: 'table__fullset',
         services: [
-            { name: 'Fullset Acrylic', price: '£33' },
-            { name: 'Infill Acrylic	', price: '£28' },
+            { name: 'Fullset Acrylic Normal Polish', price: '£33' },
+            { name: 'Infill Acrylic	Normal Polish', price: '£28' },
             { name: 'Fullset Permanent White Tips/Acrylic Overlay', price: '£33' },
-            { name: 'Takeoff/Redo Acrylic', price: '£35' },
-            { name: 'Takeoff and redone gel powder', price: '£40' },
-            { name: 'Gel Powder', price: '£33' },
-            { name: 'Gel Powder Infill', price: '£24' },
+            { name: 'Takeoff/Redo Acrylic Normal Polish', price: '£35' },
+            { name: 'Takeoff and redone gel powder with Normal Polish', price: '£40' },
+            { name: 'Gel Powder Fullset Normal Polish', price: '£33' },
+            { name: 'Gel Powder Infill Normal Polish', price: '£24' },
             { name: 'Gel Polish Fullset', price: '£38' },
             { name: 'Gel Polish Infill', price: '£30' },
             { name: 'Soak off only', price: '£15' },
